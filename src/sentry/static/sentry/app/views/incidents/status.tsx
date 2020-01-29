@@ -14,24 +14,18 @@ type Props = {
 };
 
 const Status: React.FC<Props> = ({className, incident, isSmall}: Props) => {
-  const isIncidentOpen = incident.status !== IncidentStatus.CLOSED;
-
-  // TODO(incidents): Make this work
-  const status = !isIncidentOpen
-    ? 'resolved'
-    : incident.status === IncidentStatus.CREATED
-    ? 'critical'
-    : 'warning';
-  const isResolved = status === 'resolved';
-  const isCritical = status === 'critical';
+  const {status} = incident;
+  const isIncidentOpen = status !== IncidentStatus.CLOSED;
+  const isResolved = status === IncidentStatus.CLOSED;
+  const isWarning = status === IncidentStatus.WARNING;
 
   const icon = isResolved
     ? 'icon-circle-check'
-    : isCritical
-    ? 'icon-circle-exclamation'
-    : 'icon-warning-sm';
+    : isWarning
+    ? 'icon-warning-sm'
+    : 'icon-circle-exclamation';
 
-  const text = isResolved ? t('Resolved') : isCritical ? t('Critical') : t('Warning');
+  const text = isResolved ? t('Resolved') : isWarning ? t('Warning') : t('Critical');
 
   return (
     <Wrapper status={status} className={className} isSmall={!!isSmall}>
@@ -43,14 +37,12 @@ const Status: React.FC<Props> = ({className, incident, isSmall}: Props) => {
 
 export default Status;
 
-type StatusType = 'warning' | 'critical' | 'resolved';
-
-type WrapperProps = {status: StatusType};
+type WrapperProps = {status: IncidentStatus};
 
 function getColor({theme, status}) {
-  if (status === 'resolved') {
+  if (status === IncidentStatus.CLOSED) {
     return theme.greenDark;
-  } else if (status === 'warning') {
+  } else if (status === IncidentStatus.WARNING) {
     return theme.yellowDark;
   }
 
