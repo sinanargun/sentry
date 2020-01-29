@@ -15,11 +15,22 @@ exports[`CreateProject should block if you have access to no teams 1`] = `
                your organization. For example, you might have separate projects
                for your API server and frontend client.
     </HelpText>
+    <PageHeading
+      withMargins={true}
+    >
+      Choose a platform
+    </PageHeading>
     <PlatformPicker
       platform=""
       setPlatform={[Function]}
       showOther={true}
     />
+    <PageHeading
+      withMargins={true}
+    >
+      Set your default alert settings
+    </PageHeading>
+    <IssueAlertOptions />
     <CreateProjectForm
       onSubmit={[Function]}
     >
@@ -158,6 +169,15 @@ exports[`CreateProject should deal with incorrect platform name if its provided 
                for your API server and frontend client.
       </p>
     </HelpText>
+    <PageHeading
+      withMargins={true}
+    >
+      <h1
+        className="css-uisydj-PageHeading e1bz0f4q0"
+      >
+        Choose a platform
+      </h1>
+    </PageHeading>
     <PlatformPicker
       platform=""
       setPlatform={[Function]}
@@ -1225,6 +1245,1599 @@ exports[`CreateProject should deal with incorrect platform name if its provided 
         </div>
       </PlatformList>
     </PlatformPicker>
+    <PageHeading
+      withMargins={true}
+    >
+      <h1
+        className="css-uisydj-PageHeading e1bz0f4q0"
+      >
+        Set your default alert settings
+      </h1>
+    </PageHeading>
+    <IssueAlertOptions>
+      <div>
+        <RadioField
+          choices={
+            Array [
+              Array [
+                0,
+                <ForwardRef(render)
+                  __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                  css={
+                    Object {
+                      "map": undefined,
+                      "name": "gwgcf7-customizedAlertsFragment-customizedAlertsFragment",
+                      "next": undefined,
+                      "styles": "display:grid;grid-template-columns:repeat(5,auto);grid-gap:10px;;label:customizedAlertsFragment;;;label:customizedAlertsFragment;",
+                      "toString": [Function],
+                    }
+                  }
+                >
+                  <span>
+                    When there are more than
+                  </span>
+                  <ForwardRef(RefForwardedSelectControl)
+                    choices={
+                      Array [
+                        Array [
+                          "1",
+                          "Users Affected",
+                        ],
+                        Array [
+                          "3",
+                          "Errors",
+                        ],
+                      ]
+                    }
+                  />
+                  <span>
+                     in 
+                  </span>
+                  <ForwardRef(RefForwardedSelectControl)
+                    choices={
+                      Array [
+                        Array [
+                          0,
+                          "short",
+                        ],
+                        Array [
+                          1,
+                          "this is a really really long long long long long text",
+                        ],
+                      ]
+                    }
+                  />
+                  <span>
+                     in the project
+                  </span>
+                </ForwardRef(render)>,
+              ],
+              Array [
+                1,
+                "Alert me on every new issue",
+              ],
+              Array [
+                2,
+                "I'll create my own alerts later",
+              ],
+            ]
+          }
+          name="Brown Dog"
+        >
+          <InputField
+            choices={
+              Array [
+                Array [
+                  0,
+                  <ForwardRef(render)
+                    __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                    css={
+                      Object {
+                        "map": undefined,
+                        "name": "gwgcf7-customizedAlertsFragment-customizedAlertsFragment",
+                        "next": undefined,
+                        "styles": "display:grid;grid-template-columns:repeat(5,auto);grid-gap:10px;;label:customizedAlertsFragment;;;label:customizedAlertsFragment;",
+                        "toString": [Function],
+                      }
+                    }
+                  >
+                    <span>
+                      When there are more than
+                    </span>
+                    <ForwardRef(RefForwardedSelectControl)
+                      choices={
+                        Array [
+                          Array [
+                            "1",
+                            "Users Affected",
+                          ],
+                          Array [
+                            "3",
+                            "Errors",
+                          ],
+                        ]
+                      }
+                    />
+                    <span>
+                       in 
+                    </span>
+                    <ForwardRef(RefForwardedSelectControl)
+                      choices={
+                        Array [
+                          Array [
+                            0,
+                            "short",
+                          ],
+                          Array [
+                            1,
+                            "this is a really really long long long long long text",
+                          ],
+                        ]
+                      }
+                    />
+                    <span>
+                       in the project
+                    </span>
+                  </ForwardRef(render)>,
+                ],
+                Array [
+                  1,
+                  "Alert me on every new issue",
+                ],
+                Array [
+                  2,
+                  "I'll create my own alerts later",
+                ],
+              ]
+            }
+            field={[Function]}
+            name="Brown Dog"
+          >
+            <FormField
+              choices={
+                Array [
+                  Array [
+                    0,
+                    <ForwardRef(render)
+                      __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                      css={
+                        Object {
+                          "map": undefined,
+                          "name": "gwgcf7-customizedAlertsFragment-customizedAlertsFragment",
+                          "next": undefined,
+                          "styles": "display:grid;grid-template-columns:repeat(5,auto);grid-gap:10px;;label:customizedAlertsFragment;;;label:customizedAlertsFragment;",
+                          "toString": [Function],
+                        }
+                      }
+                    >
+                      <span>
+                        When there are more than
+                      </span>
+                      <ForwardRef(RefForwardedSelectControl)
+                        choices={
+                          Array [
+                            Array [
+                              "1",
+                              "Users Affected",
+                            ],
+                            Array [
+                              "3",
+                              "Errors",
+                            ],
+                          ]
+                        }
+                      />
+                      <span>
+                         in 
+                      </span>
+                      <ForwardRef(RefForwardedSelectControl)
+                        choices={
+                          Array [
+                            Array [
+                              0,
+                              "short",
+                            ],
+                            Array [
+                              1,
+                              "this is a really really long long long long long text",
+                            ],
+                          ]
+                        }
+                      />
+                      <span>
+                         in the project
+                      </span>
+                    </ForwardRef(render)>,
+                  ],
+                  Array [
+                    1,
+                    "Alert me on every new issue",
+                  ],
+                  Array [
+                    2,
+                    "I'll create my own alerts later",
+                  ],
+                ]
+              }
+              field={[Function]}
+              flexibleControlStateSize={false}
+              hideErrorMessage={false}
+              name="Brown Dog"
+            >
+              <Field
+                alignRight={false}
+                choices={
+                  Array [
+                    Array [
+                      0,
+                      <ForwardRef(render)
+                        __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                        css={
+                          Object {
+                            "map": undefined,
+                            "name": "gwgcf7-customizedAlertsFragment-customizedAlertsFragment",
+                            "next": undefined,
+                            "styles": "display:grid;grid-template-columns:repeat(5,auto);grid-gap:10px;;label:customizedAlertsFragment;;;label:customizedAlertsFragment;",
+                            "toString": [Function],
+                          }
+                        }
+                      >
+                        <span>
+                          When there are more than
+                        </span>
+                        <ForwardRef(RefForwardedSelectControl)
+                          choices={
+                            Array [
+                              Array [
+                                "1",
+                                "Users Affected",
+                              ],
+                              Array [
+                                "3",
+                                "Errors",
+                              ],
+                            ]
+                          }
+                        />
+                        <span>
+                           in 
+                        </span>
+                        <ForwardRef(RefForwardedSelectControl)
+                          choices={
+                            Array [
+                              Array [
+                                0,
+                                "short",
+                              ],
+                              Array [
+                                1,
+                                "this is a really really long long long long long text",
+                              ],
+                            ]
+                          }
+                        />
+                        <span>
+                           in the project
+                        </span>
+                      </ForwardRef(render)>,
+                    ],
+                    Array [
+                      1,
+                      "Alert me on every new issue",
+                    ],
+                    Array [
+                      2,
+                      "I'll create my own alerts later",
+                    ],
+                  ]
+                }
+                disabled={false}
+                field={[Function]}
+                flexibleControlStateSize={false}
+                id="Brown-Dog"
+                inline={true}
+                name="Brown Dog"
+                required={false}
+                visible={true}
+              >
+                <FieldWrapper
+                  hasControlState={true}
+                  inline={true}
+                >
+                  <div
+                    className="css-hkyx7n-FieldWrapper-FieldWrapper e2iyls20"
+                  >
+                    <FieldControl
+                      alignRight={false}
+                      controlState={
+                        <FormFieldControlState
+                          model={
+                            MockModel {
+                              "initialData": Object {
+                                "Brown Dog": undefined,
+                              },
+                              "props": Object {
+                                "children": [Function],
+                                "choices": Array [
+                                  Array [
+                                    0,
+                                    <ForwardRef(render)
+                                      __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                                      css={
+                                        Object {
+                                          "map": undefined,
+                                          "name": "gwgcf7-customizedAlertsFragment-customizedAlertsFragment",
+                                          "next": undefined,
+                                          "styles": "display:grid;grid-template-columns:repeat(5,auto);grid-gap:10px;;label:customizedAlertsFragment;;;label:customizedAlertsFragment;",
+                                          "toString": [Function],
+                                        }
+                                      }
+                                    >
+                                      <span>
+                                        When there are more than
+                                      </span>
+                                      <ForwardRef(RefForwardedSelectControl)
+                                        choices={
+                                          Array [
+                                            Array [
+                                              "1",
+                                              "Users Affected",
+                                            ],
+                                            Array [
+                                              "3",
+                                              "Errors",
+                                            ],
+                                          ]
+                                        }
+                                      />
+                                      <span>
+                                         in 
+                                      </span>
+                                      <ForwardRef(RefForwardedSelectControl)
+                                        choices={
+                                          Array [
+                                            Array [
+                                              0,
+                                              "short",
+                                            ],
+                                            Array [
+                                              1,
+                                              "this is a really really long long long long long text",
+                                            ],
+                                          ]
+                                        }
+                                      />
+                                      <span>
+                                         in the project
+                                      </span>
+                                    </ForwardRef(render)>,
+                                  ],
+                                  Array [
+                                    1,
+                                    "Alert me on every new issue",
+                                  ],
+                                  Array [
+                                    2,
+                                    "I'll create my own alerts later",
+                                  ],
+                                ],
+                                "className": undefined,
+                                "field": [Function],
+                                "flexibleControlStateSize": false,
+                                "hideErrorMessage": false,
+                                "name": "Brown Dog",
+                              },
+                            }
+                          }
+                          name="Brown Dog"
+                        />
+                      }
+                      disabled={false}
+                      errorState={
+                        <Observer>
+                          [Function]
+                        </Observer>
+                      }
+                      flexibleControlStateSize={false}
+                      inline={true}
+                    >
+                      <FieldControlErrorWrapper
+                        inline={true}
+                      >
+                        <div
+                          className="css-qe5fr0-FieldControlErrorWrapper e12jpfuq0"
+                        >
+                          <FieldControlWrapper>
+                            <div
+                              className="css-1evsibf-FieldControlWrapper e12jpfuq2"
+                            >
+                              <FieldControlStyled
+                                alignRight={false}
+                              >
+                                <div
+                                  className="css-ld1e0a-FieldControlStyled e12jpfuq1"
+                                >
+                                  <Observer>
+                                    <RadioGroup
+                                      choices={
+                                        Array [
+                                          Array [
+                                            0,
+                                            <ForwardRef(render)
+                                              __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                                              css={
+                                                Object {
+                                                  "map": undefined,
+                                                  "name": "gwgcf7-customizedAlertsFragment-customizedAlertsFragment",
+                                                  "next": undefined,
+                                                  "styles": "display:grid;grid-template-columns:repeat(5,auto);grid-gap:10px;;label:customizedAlertsFragment;;;label:customizedAlertsFragment;",
+                                                  "toString": [Function],
+                                                }
+                                              }
+                                            >
+                                              <span>
+                                                When there are more than
+                                              </span>
+                                              <ForwardRef(RefForwardedSelectControl)
+                                                choices={
+                                                  Array [
+                                                    Array [
+                                                      "1",
+                                                      "Users Affected",
+                                                    ],
+                                                    Array [
+                                                      "3",
+                                                      "Errors",
+                                                    ],
+                                                  ]
+                                                }
+                                              />
+                                              <span>
+                                                 in 
+                                              </span>
+                                              <ForwardRef(RefForwardedSelectControl)
+                                                choices={
+                                                  Array [
+                                                    Array [
+                                                      0,
+                                                      "short",
+                                                    ],
+                                                    Array [
+                                                      1,
+                                                      "this is a really really long long long long long text",
+                                                    ],
+                                                  ]
+                                                }
+                                              />
+                                              <span>
+                                                 in the project
+                                              </span>
+                                            </ForwardRef(render)>,
+                                          ],
+                                          Array [
+                                            1,
+                                            "Alert me on every new issue",
+                                          ],
+                                          Array [
+                                            2,
+                                            "I'll create my own alerts later",
+                                          ],
+                                        ]
+                                      }
+                                      disabled={false}
+                                      onChange={[Function]}
+                                    >
+                                      <div
+                                        role="radiogroup"
+                                      >
+                                        <RadioLineItem
+                                          aria-checked={false}
+                                          disabled={false}
+                                          index={0}
+                                          key="0"
+                                          onClick={[Function]}
+                                          role="radio"
+                                        >
+                                          <div
+                                            aria-checked={false}
+                                            className="css-1u27vp3-RadioLineItem e1r42lk41"
+                                            onClick={[Function]}
+                                            role="radio"
+                                          >
+                                            <RadioLineButton
+                                              disabled={false}
+                                              type="button"
+                                            >
+                                              <button
+                                                className="css-13qmft9-RadioLineButton e1r42lk40"
+                                                disabled={false}
+                                                type="button"
+                                              />
+                                            </RadioLineButton>
+                                            <RadioLineText
+                                              disabled={false}
+                                            >
+                                              <div
+                                                className="css-1nwjsmg-RadioLineText e1r42lk43"
+                                              >
+                                                <EmotionCssPropInternal
+                                                  __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                                                  css={
+                                                    Object {
+                                                      "map": undefined,
+                                                      "name": "gwgcf7-customizedAlertsFragment-customizedAlertsFragment",
+                                                      "next": undefined,
+                                                      "styles": "display:grid;grid-template-columns:repeat(5,auto);grid-gap:10px;;label:customizedAlertsFragment;;;label:customizedAlertsFragment;",
+                                                      "toString": [Function],
+                                                    }
+                                                  }
+                                                >
+                                                  <div
+                                                    className="css-gwgcf7-customizedAlertsFragment-customizedAlertsFragment"
+                                                  >
+                                                    <span>
+                                                      When there are more than
+                                                    </span>
+                                                    <ForwardRef(RefForwardedSelectControl)
+                                                      choices={
+                                                        Array [
+                                                          Array [
+                                                            "1",
+                                                            "Users Affected",
+                                                          ],
+                                                          Array [
+                                                            "3",
+                                                            "Errors",
+                                                          ],
+                                                        ]
+                                                      }
+                                                    >
+                                                      <SelectControl
+                                                        choices={
+                                                          Array [
+                                                            Array [
+                                                              "1",
+                                                              "Users Affected",
+                                                            ],
+                                                            Array [
+                                                              "3",
+                                                              "Errors",
+                                                            ],
+                                                          ]
+                                                        }
+                                                        clearable={false}
+                                                        forwardedRef={null}
+                                                        height={36}
+                                                        multiple={false}
+                                                      >
+                                                        <StyledSelect
+                                                          arrowRenderer={[Function]}
+                                                          backspaceRemoves={false}
+                                                          clearable={false}
+                                                          deleteRemoves={false}
+                                                          forwardedRef={null}
+                                                          height={36}
+                                                          multiple={false}
+                                                          options={
+                                                            Array [
+                                                              Object {
+                                                                "label": "Users Affected",
+                                                                "value": "1",
+                                                              },
+                                                              Object {
+                                                                "label": "Errors",
+                                                                "value": "3",
+                                                              },
+                                                            ]
+                                                          }
+                                                        >
+                                                          <SelectPicker
+                                                            arrowRenderer={[Function]}
+                                                            backspaceRemoves={false}
+                                                            className="css-140v9or-StyledSelect eho28m20"
+                                                            clearable={false}
+                                                            deleteRemoves={false}
+                                                            forwardedRef={null}
+                                                            height={36}
+                                                            multiple={false}
+                                                            options={
+                                                              Array [
+                                                                Object {
+                                                                  "label": "Users Affected",
+                                                                  "value": "1",
+                                                                },
+                                                                Object {
+                                                                  "label": "Errors",
+                                                                  "value": "3",
+                                                                },
+                                                              ]
+                                                            }
+                                                          >
+                                                            <Select
+                                                              arrowRenderer={[Function]}
+                                                              autosize={true}
+                                                              backspaceRemoves={false}
+                                                              backspaceToRemoveMessage="Press backspace to remove {label}"
+                                                              className="css-140v9or-StyledSelect eho28m20"
+                                                              clearAllText="Clear all"
+                                                              clearRenderer={[Function]}
+                                                              clearValueText="Clear value"
+                                                              clearable={false}
+                                                              closeOnSelect={true}
+                                                              deleteRemoves={false}
+                                                              delimiter=","
+                                                              disabled={false}
+                                                              escapeClearsValue={true}
+                                                              filterOptions={[Function]}
+                                                              height={36}
+                                                              ignoreAccents={true}
+                                                              ignoreCase={true}
+                                                              inputProps={Object {}}
+                                                              isLoading={false}
+                                                              joinValues={false}
+                                                              labelKey="label"
+                                                              matchPos="any"
+                                                              matchProp="any"
+                                                              menuBuffer={0}
+                                                              menuRenderer={[Function]}
+                                                              multi={false}
+                                                              multiple={false}
+                                                              noResultsText="No results found"
+                                                              onBlurResetsInput={true}
+                                                              onCloseResetsInput={true}
+                                                              onSelectResetsInput={true}
+                                                              openOnClick={true}
+                                                              optionComponent={[Function]}
+                                                              options={
+                                                                Array [
+                                                                  Object {
+                                                                    "label": "Users Affected",
+                                                                    "value": "1",
+                                                                  },
+                                                                  Object {
+                                                                    "label": "Errors",
+                                                                    "value": "3",
+                                                                  },
+                                                                ]
+                                                              }
+                                                              pageSize={5}
+                                                              placeholder="Select..."
+                                                              removeSelected={true}
+                                                              required={false}
+                                                              rtl={false}
+                                                              scrollMenuIntoView={true}
+                                                              searchable={true}
+                                                              simpleValue={false}
+                                                              tabSelectsValue={true}
+                                                              trimFilter={true}
+                                                              valueComponent={[Function]}
+                                                              valueKey="value"
+                                                            >
+                                                              <div
+                                                                className="Select css-140v9or-StyledSelect eho28m20 is-searchable Select--single"
+                                                              >
+                                                                <div
+                                                                  className="Select-control"
+                                                                  onKeyDown={[Function]}
+                                                                  onMouseDown={[Function]}
+                                                                  onTouchEnd={[Function]}
+                                                                  onTouchMove={[Function]}
+                                                                  onTouchStart={[Function]}
+                                                                >
+                                                                  <div
+                                                                    className="Select-multi-value-wrapper"
+                                                                    id="react-select-7--value"
+                                                                  >
+                                                                    <div
+                                                                      className="Select-placeholder"
+                                                                    >
+                                                                      Select...
+                                                                    </div>
+                                                                    <AutosizeInput
+                                                                      aria-activedescendant="react-select-7--value"
+                                                                      aria-expanded="false"
+                                                                      aria-haspopup="false"
+                                                                      aria-owns=""
+                                                                      className="Select-input"
+                                                                      injectStyles={true}
+                                                                      minWidth="5"
+                                                                      onBlur={[Function]}
+                                                                      onChange={[Function]}
+                                                                      onFocus={[Function]}
+                                                                      required={false}
+                                                                      role="combobox"
+                                                                      value=""
+                                                                    >
+                                                                      <div
+                                                                        className="Select-input"
+                                                                        style={
+                                                                          Object {
+                                                                            "display": "inline-block",
+                                                                          }
+                                                                        }
+                                                                      >
+                                                                        <input
+                                                                          aria-activedescendant="react-select-7--value"
+                                                                          aria-expanded="false"
+                                                                          aria-haspopup="false"
+                                                                          aria-owns=""
+                                                                          onBlur={[Function]}
+                                                                          onChange={[Function]}
+                                                                          onFocus={[Function]}
+                                                                          required={false}
+                                                                          role="combobox"
+                                                                          style={
+                                                                            Object {
+                                                                              "boxSizing": "content-box",
+                                                                              "width": "5px",
+                                                                            }
+                                                                          }
+                                                                          value=""
+                                                                        />
+                                                                        <div
+                                                                          style={
+                                                                            Object {
+                                                                              "height": 0,
+                                                                              "left": 0,
+                                                                              "overflow": "scroll",
+                                                                              "position": "absolute",
+                                                                              "top": 0,
+                                                                              "visibility": "hidden",
+                                                                              "whiteSpace": "pre",
+                                                                            }
+                                                                          }
+                                                                        />
+                                                                      </div>
+                                                                    </AutosizeInput>
+                                                                  </div>
+                                                                  <span
+                                                                    className="Select-arrow-zone"
+                                                                    onMouseDown={[Function]}
+                                                                  >
+                                                                    <span
+                                                                      className="icon-arrow-down"
+                                                                    />
+                                                                  </span>
+                                                                </div>
+                                                              </div>
+                                                            </Select>
+                                                          </SelectPicker>
+                                                        </StyledSelect>
+                                                      </SelectControl>
+                                                    </ForwardRef(RefForwardedSelectControl)>
+                                                    <span>
+                                                       in 
+                                                    </span>
+                                                    <ForwardRef(RefForwardedSelectControl)
+                                                      choices={
+                                                        Array [
+                                                          Array [
+                                                            0,
+                                                            "short",
+                                                          ],
+                                                          Array [
+                                                            1,
+                                                            "this is a really really long long long long long text",
+                                                          ],
+                                                        ]
+                                                      }
+                                                    >
+                                                      <SelectControl
+                                                        choices={
+                                                          Array [
+                                                            Array [
+                                                              0,
+                                                              "short",
+                                                            ],
+                                                            Array [
+                                                              1,
+                                                              "this is a really really long long long long long text",
+                                                            ],
+                                                          ]
+                                                        }
+                                                        clearable={false}
+                                                        forwardedRef={null}
+                                                        height={36}
+                                                        multiple={false}
+                                                      >
+                                                        <StyledSelect
+                                                          arrowRenderer={[Function]}
+                                                          backspaceRemoves={false}
+                                                          clearable={false}
+                                                          deleteRemoves={false}
+                                                          forwardedRef={null}
+                                                          height={36}
+                                                          multiple={false}
+                                                          options={
+                                                            Array [
+                                                              Object {
+                                                                "label": "short",
+                                                                "value": 0,
+                                                              },
+                                                              Object {
+                                                                "label": "this is a really really long long long long long text",
+                                                                "value": 1,
+                                                              },
+                                                            ]
+                                                          }
+                                                        >
+                                                          <SelectPicker
+                                                            arrowRenderer={[Function]}
+                                                            backspaceRemoves={false}
+                                                            className="css-140v9or-StyledSelect eho28m20"
+                                                            clearable={false}
+                                                            deleteRemoves={false}
+                                                            forwardedRef={null}
+                                                            height={36}
+                                                            multiple={false}
+                                                            options={
+                                                              Array [
+                                                                Object {
+                                                                  "label": "short",
+                                                                  "value": 0,
+                                                                },
+                                                                Object {
+                                                                  "label": "this is a really really long long long long long text",
+                                                                  "value": 1,
+                                                                },
+                                                              ]
+                                                            }
+                                                          >
+                                                            <Select
+                                                              arrowRenderer={[Function]}
+                                                              autosize={true}
+                                                              backspaceRemoves={false}
+                                                              backspaceToRemoveMessage="Press backspace to remove {label}"
+                                                              className="css-140v9or-StyledSelect eho28m20"
+                                                              clearAllText="Clear all"
+                                                              clearRenderer={[Function]}
+                                                              clearValueText="Clear value"
+                                                              clearable={false}
+                                                              closeOnSelect={true}
+                                                              deleteRemoves={false}
+                                                              delimiter=","
+                                                              disabled={false}
+                                                              escapeClearsValue={true}
+                                                              filterOptions={[Function]}
+                                                              height={36}
+                                                              ignoreAccents={true}
+                                                              ignoreCase={true}
+                                                              inputProps={Object {}}
+                                                              isLoading={false}
+                                                              joinValues={false}
+                                                              labelKey="label"
+                                                              matchPos="any"
+                                                              matchProp="any"
+                                                              menuBuffer={0}
+                                                              menuRenderer={[Function]}
+                                                              multi={false}
+                                                              multiple={false}
+                                                              noResultsText="No results found"
+                                                              onBlurResetsInput={true}
+                                                              onCloseResetsInput={true}
+                                                              onSelectResetsInput={true}
+                                                              openOnClick={true}
+                                                              optionComponent={[Function]}
+                                                              options={
+                                                                Array [
+                                                                  Object {
+                                                                    "label": "short",
+                                                                    "value": 0,
+                                                                  },
+                                                                  Object {
+                                                                    "label": "this is a really really long long long long long text",
+                                                                    "value": 1,
+                                                                  },
+                                                                ]
+                                                              }
+                                                              pageSize={5}
+                                                              placeholder="Select..."
+                                                              removeSelected={true}
+                                                              required={false}
+                                                              rtl={false}
+                                                              scrollMenuIntoView={true}
+                                                              searchable={true}
+                                                              simpleValue={false}
+                                                              tabSelectsValue={true}
+                                                              trimFilter={true}
+                                                              valueComponent={[Function]}
+                                                              valueKey="value"
+                                                            >
+                                                              <div
+                                                                className="Select css-140v9or-StyledSelect eho28m20 is-searchable Select--single"
+                                                              >
+                                                                <div
+                                                                  className="Select-control"
+                                                                  onKeyDown={[Function]}
+                                                                  onMouseDown={[Function]}
+                                                                  onTouchEnd={[Function]}
+                                                                  onTouchMove={[Function]}
+                                                                  onTouchStart={[Function]}
+                                                                >
+                                                                  <div
+                                                                    className="Select-multi-value-wrapper"
+                                                                    id="react-select-8--value"
+                                                                  >
+                                                                    <div
+                                                                      className="Select-placeholder"
+                                                                    >
+                                                                      Select...
+                                                                    </div>
+                                                                    <AutosizeInput
+                                                                      aria-activedescendant="react-select-8--value"
+                                                                      aria-expanded="false"
+                                                                      aria-haspopup="false"
+                                                                      aria-owns=""
+                                                                      className="Select-input"
+                                                                      injectStyles={true}
+                                                                      minWidth="5"
+                                                                      onBlur={[Function]}
+                                                                      onChange={[Function]}
+                                                                      onFocus={[Function]}
+                                                                      required={false}
+                                                                      role="combobox"
+                                                                      value=""
+                                                                    >
+                                                                      <div
+                                                                        className="Select-input"
+                                                                        style={
+                                                                          Object {
+                                                                            "display": "inline-block",
+                                                                          }
+                                                                        }
+                                                                      >
+                                                                        <input
+                                                                          aria-activedescendant="react-select-8--value"
+                                                                          aria-expanded="false"
+                                                                          aria-haspopup="false"
+                                                                          aria-owns=""
+                                                                          onBlur={[Function]}
+                                                                          onChange={[Function]}
+                                                                          onFocus={[Function]}
+                                                                          required={false}
+                                                                          role="combobox"
+                                                                          style={
+                                                                            Object {
+                                                                              "boxSizing": "content-box",
+                                                                              "width": "5px",
+                                                                            }
+                                                                          }
+                                                                          value=""
+                                                                        />
+                                                                        <div
+                                                                          style={
+                                                                            Object {
+                                                                              "height": 0,
+                                                                              "left": 0,
+                                                                              "overflow": "scroll",
+                                                                              "position": "absolute",
+                                                                              "top": 0,
+                                                                              "visibility": "hidden",
+                                                                              "whiteSpace": "pre",
+                                                                            }
+                                                                          }
+                                                                        />
+                                                                      </div>
+                                                                    </AutosizeInput>
+                                                                  </div>
+                                                                  <span
+                                                                    className="Select-arrow-zone"
+                                                                    onMouseDown={[Function]}
+                                                                  >
+                                                                    <span
+                                                                      className="icon-arrow-down"
+                                                                    />
+                                                                  </span>
+                                                                </div>
+                                                              </div>
+                                                            </Select>
+                                                          </SelectPicker>
+                                                        </StyledSelect>
+                                                      </SelectControl>
+                                                    </ForwardRef(RefForwardedSelectControl)>
+                                                    <span>
+                                                       in the project
+                                                    </span>
+                                                  </div>
+                                                </EmotionCssPropInternal>
+                                              </div>
+                                            </RadioLineText>
+                                          </div>
+                                        </RadioLineItem>
+                                        <RadioLineItem
+                                          aria-checked={false}
+                                          disabled={false}
+                                          index={1}
+                                          key="1"
+                                          onClick={[Function]}
+                                          role="radio"
+                                        >
+                                          <div
+                                            aria-checked={false}
+                                            className="css-q5gzxw-RadioLineItem e1r42lk41"
+                                            onClick={[Function]}
+                                            role="radio"
+                                          >
+                                            <RadioLineButton
+                                              disabled={false}
+                                              type="button"
+                                            >
+                                              <button
+                                                className="css-13qmft9-RadioLineButton e1r42lk40"
+                                                disabled={false}
+                                                type="button"
+                                              />
+                                            </RadioLineButton>
+                                            <RadioLineText
+                                              disabled={false}
+                                            >
+                                              <div
+                                                className="css-1nwjsmg-RadioLineText e1r42lk43"
+                                              >
+                                                Alert me on every new issue
+                                              </div>
+                                            </RadioLineText>
+                                          </div>
+                                        </RadioLineItem>
+                                        <RadioLineItem
+                                          aria-checked={false}
+                                          disabled={false}
+                                          index={2}
+                                          key="2"
+                                          onClick={[Function]}
+                                          role="radio"
+                                        >
+                                          <div
+                                            aria-checked={false}
+                                            className="css-q5gzxw-RadioLineItem e1r42lk41"
+                                            onClick={[Function]}
+                                            role="radio"
+                                          >
+                                            <RadioLineButton
+                                              disabled={false}
+                                              type="button"
+                                            >
+                                              <button
+                                                className="css-13qmft9-RadioLineButton e1r42lk40"
+                                                disabled={false}
+                                                type="button"
+                                              />
+                                            </RadioLineButton>
+                                            <RadioLineText
+                                              disabled={false}
+                                            >
+                                              <div
+                                                className="css-1nwjsmg-RadioLineText e1r42lk43"
+                                              >
+                                                I'll create my own alerts later
+                                              </div>
+                                            </RadioLineText>
+                                          </div>
+                                        </RadioLineItem>
+                                      </div>
+                                    </RadioGroup>
+                                  </Observer>
+                                </div>
+                              </FieldControlStyled>
+                              <FieldControlState
+                                flexibleControlStateSize={false}
+                              >
+                                <div
+                                  className="css-1347hil-FieldControlState ep9s0su0"
+                                >
+                                  <FormFieldControlState
+                                    model={
+                                      MockModel {
+                                        "initialData": Object {
+                                          "Brown Dog": undefined,
+                                        },
+                                        "props": Object {
+                                          "children": [Function],
+                                          "choices": Array [
+                                            Array [
+                                              0,
+                                              <ForwardRef(render)
+                                                __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                                                css={
+                                                  Object {
+                                                    "map": undefined,
+                                                    "name": "gwgcf7-customizedAlertsFragment-customizedAlertsFragment",
+                                                    "next": undefined,
+                                                    "styles": "display:grid;grid-template-columns:repeat(5,auto);grid-gap:10px;;label:customizedAlertsFragment;;;label:customizedAlertsFragment;",
+                                                    "toString": [Function],
+                                                  }
+                                                }
+                                              >
+                                                <span>
+                                                  When there are more than
+                                                </span>
+                                                <ForwardRef(RefForwardedSelectControl)
+                                                  choices={
+                                                    Array [
+                                                      Array [
+                                                        "1",
+                                                        "Users Affected",
+                                                      ],
+                                                      Array [
+                                                        "3",
+                                                        "Errors",
+                                                      ],
+                                                    ]
+                                                  }
+                                                />
+                                                <span>
+                                                   in 
+                                                </span>
+                                                <ForwardRef(RefForwardedSelectControl)
+                                                  choices={
+                                                    Array [
+                                                      Array [
+                                                        0,
+                                                        "short",
+                                                      ],
+                                                      Array [
+                                                        1,
+                                                        "this is a really really long long long long long text",
+                                                      ],
+                                                    ]
+                                                  }
+                                                />
+                                                <span>
+                                                   in the project
+                                                </span>
+                                              </ForwardRef(render)>,
+                                            ],
+                                            Array [
+                                              1,
+                                              "Alert me on every new issue",
+                                            ],
+                                            Array [
+                                              2,
+                                              "I'll create my own alerts later",
+                                            ],
+                                          ],
+                                          "className": undefined,
+                                          "field": [Function],
+                                          "flexibleControlStateSize": false,
+                                          "hideErrorMessage": false,
+                                          "name": "Brown Dog",
+                                        },
+                                      }
+                                    }
+                                    name="Brown Dog"
+                                  >
+                                    <Observer>
+                                      <ControlState
+                                        isSaved={false}
+                                        isSaving={false}
+                                      />
+                                    </Observer>
+                                  </FormFieldControlState>
+                                </div>
+                              </FieldControlState>
+                            </div>
+                          </FieldControlWrapper>
+                          <Observer />
+                        </div>
+                      </FieldControlErrorWrapper>
+                    </FieldControl>
+                  </div>
+                </FieldWrapper>
+              </Field>
+            </FormField>
+          </InputField>
+        </RadioField>
+        <SelectField
+          allowClear={false}
+          allowEmpty={false}
+          escapeMarkup={true}
+          field={[Function]}
+          formatMessageValue={[Function]}
+          multiple={false}
+          placeholder="--"
+          small={false}
+        >
+          <InputField
+            alignRight={false}
+            allowEmpty={false}
+            escapeMarkup={true}
+            field={[Function]}
+            formatMessageValue={[Function]}
+            placeholder="--"
+            small={false}
+          >
+            <FormField
+              alignRight={false}
+              allowEmpty={false}
+              escapeMarkup={true}
+              field={[Function]}
+              flexibleControlStateSize={false}
+              formatMessageValue={[Function]}
+              hideErrorMessage={false}
+              placeholder="--"
+              small={false}
+            >
+              <Field
+                alignRight={false}
+                allowEmpty={false}
+                disabled={false}
+                escapeMarkup={true}
+                field={[Function]}
+                flexibleControlStateSize={false}
+                formatMessageValue={[Function]}
+                id=""
+                inline={true}
+                placeholder="--"
+                required={false}
+                small={false}
+                visible={true}
+              >
+                <FieldWrapper
+                  hasControlState={true}
+                  inline={true}
+                >
+                  <div
+                    className="css-hkyx7n-FieldWrapper-FieldWrapper e2iyls20"
+                  >
+                    <FieldControl
+                      alignRight={false}
+                      controlState={
+                        <FormFieldControlState
+                          model={
+                            MockModel {
+                              "initialData": Object {
+                                "undefined": undefined,
+                              },
+                              "props": Object {
+                                "alignRight": false,
+                                "allowEmpty": false,
+                                "children": [Function],
+                                "className": undefined,
+                                "escapeMarkup": true,
+                                "field": [Function],
+                                "flexibleControlStateSize": false,
+                                "formatMessageValue": [Function],
+                                "hideErrorMessage": false,
+                                "placeholder": "--",
+                                "small": false,
+                              },
+                            }
+                          }
+                        />
+                      }
+                      disabled={false}
+                      errorState={
+                        <Observer>
+                          [Function]
+                        </Observer>
+                      }
+                      flexibleControlStateSize={false}
+                      inline={true}
+                    >
+                      <FieldControlErrorWrapper
+                        inline={true}
+                      >
+                        <div
+                          className="css-qe5fr0-FieldControlErrorWrapper e12jpfuq0"
+                        >
+                          <FieldControlWrapper>
+                            <div
+                              className="css-1evsibf-FieldControlWrapper e12jpfuq2"
+                            >
+                              <FieldControlStyled
+                                alignRight={false}
+                              >
+                                <div
+                                  className="css-ld1e0a-FieldControlStyled e12jpfuq1"
+                                >
+                                  <Observer>
+                                    <ForwardRef(RefForwardedSelectControl)
+                                      alignRight={false}
+                                      allowEmpty={false}
+                                      clearable={false}
+                                      disabled={false}
+                                      escapeMarkup={true}
+                                      field={[Function]}
+                                      formatMessageValue={[Function]}
+                                      id=""
+                                      initialData={
+                                        Object {
+                                          "undefined": undefined,
+                                        }
+                                      }
+                                      multiple={false}
+                                      onChange={[Function]}
+                                      onKeyDown={[Function]}
+                                      options={Array []}
+                                      placeholder="--"
+                                      small={false}
+                                    >
+                                      <SelectControl
+                                        alignRight={false}
+                                        allowEmpty={false}
+                                        clearable={false}
+                                        disabled={false}
+                                        escapeMarkup={true}
+                                        field={[Function]}
+                                        formatMessageValue={[Function]}
+                                        forwardedRef={[Function]}
+                                        height={36}
+                                        id=""
+                                        initialData={
+                                          Object {
+                                            "undefined": undefined,
+                                          }
+                                        }
+                                        multiple={false}
+                                        onChange={[Function]}
+                                        onKeyDown={[Function]}
+                                        options={Array []}
+                                        placeholder="--"
+                                        small={false}
+                                      >
+                                        <StyledSelect
+                                          alignRight={false}
+                                          allowEmpty={false}
+                                          arrowRenderer={[Function]}
+                                          backspaceRemoves={false}
+                                          clearable={false}
+                                          deleteRemoves={false}
+                                          disabled={false}
+                                          escapeMarkup={true}
+                                          field={[Function]}
+                                          formatMessageValue={[Function]}
+                                          forwardedRef={[Function]}
+                                          height={36}
+                                          id=""
+                                          initialData={
+                                            Object {
+                                              "undefined": undefined,
+                                            }
+                                          }
+                                          multiple={false}
+                                          onChange={[Function]}
+                                          onKeyDown={[Function]}
+                                          options={Array []}
+                                          placeholder="--"
+                                          small={false}
+                                        >
+                                          <SelectPicker
+                                            alignRight={false}
+                                            allowEmpty={false}
+                                            arrowRenderer={[Function]}
+                                            backspaceRemoves={false}
+                                            className="css-140v9or-StyledSelect eho28m20"
+                                            clearable={false}
+                                            deleteRemoves={false}
+                                            disabled={false}
+                                            escapeMarkup={true}
+                                            field={[Function]}
+                                            formatMessageValue={[Function]}
+                                            forwardedRef={[Function]}
+                                            height={36}
+                                            id=""
+                                            initialData={
+                                              Object {
+                                                "undefined": undefined,
+                                              }
+                                            }
+                                            multiple={false}
+                                            onChange={[Function]}
+                                            onKeyDown={[Function]}
+                                            options={Array []}
+                                            placeholder="--"
+                                            small={false}
+                                          >
+                                            <Select
+                                              alignRight={false}
+                                              allowEmpty={false}
+                                              arrowRenderer={[Function]}
+                                              autosize={true}
+                                              backspaceRemoves={false}
+                                              backspaceToRemoveMessage="Press backspace to remove {label}"
+                                              className="css-140v9or-StyledSelect eho28m20"
+                                              clearAllText="Clear all"
+                                              clearRenderer={[Function]}
+                                              clearValueText="Clear value"
+                                              clearable={false}
+                                              closeOnSelect={true}
+                                              deleteRemoves={false}
+                                              delimiter=","
+                                              disabled={false}
+                                              escapeClearsValue={true}
+                                              escapeMarkup={true}
+                                              field={[Function]}
+                                              filterOptions={[Function]}
+                                              formatMessageValue={[Function]}
+                                              height={36}
+                                              id=""
+                                              ignoreAccents={true}
+                                              ignoreCase={true}
+                                              initialData={
+                                                Object {
+                                                  "undefined": undefined,
+                                                }
+                                              }
+                                              inputProps={Object {}}
+                                              isLoading={false}
+                                              joinValues={false}
+                                              labelKey="label"
+                                              matchPos="any"
+                                              matchProp="any"
+                                              menuBuffer={0}
+                                              menuRenderer={[Function]}
+                                              multi={false}
+                                              multiple={false}
+                                              noResultsText="No results found"
+                                              onBlurResetsInput={true}
+                                              onChange={[Function]}
+                                              onCloseResetsInput={true}
+                                              onKeyDown={[Function]}
+                                              onSelectResetsInput={true}
+                                              openOnClick={true}
+                                              optionComponent={[Function]}
+                                              options={Array []}
+                                              pageSize={5}
+                                              placeholder="--"
+                                              removeSelected={true}
+                                              required={false}
+                                              rtl={false}
+                                              scrollMenuIntoView={true}
+                                              searchable={true}
+                                              simpleValue={false}
+                                              small={false}
+                                              tabSelectsValue={true}
+                                              trimFilter={true}
+                                              valueComponent={[Function]}
+                                              valueKey="value"
+                                            >
+                                              <div
+                                                className="Select css-140v9or-StyledSelect eho28m20 is-searchable Select--single"
+                                              >
+                                                <div
+                                                  className="Select-control"
+                                                  onKeyDown={[Function]}
+                                                  onMouseDown={[Function]}
+                                                  onTouchEnd={[Function]}
+                                                  onTouchMove={[Function]}
+                                                  onTouchStart={[Function]}
+                                                >
+                                                  <div
+                                                    className="Select-multi-value-wrapper"
+                                                    id="react-select-9--value"
+                                                  >
+                                                    <div
+                                                      className="Select-placeholder"
+                                                    >
+                                                      --
+                                                    </div>
+                                                    <AutosizeInput
+                                                      aria-activedescendant="react-select-9--value"
+                                                      aria-expanded="false"
+                                                      aria-haspopup="false"
+                                                      aria-owns=""
+                                                      className="Select-input"
+                                                      id=""
+                                                      injectStyles={true}
+                                                      minWidth="5"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      required={false}
+                                                      role="combobox"
+                                                      value=""
+                                                    >
+                                                      <div
+                                                        className="Select-input"
+                                                        style={
+                                                          Object {
+                                                            "display": "inline-block",
+                                                          }
+                                                        }
+                                                      >
+                                                        <input
+                                                          aria-activedescendant="react-select-9--value"
+                                                          aria-expanded="false"
+                                                          aria-haspopup="false"
+                                                          aria-owns=""
+                                                          onBlur={[Function]}
+                                                          onChange={[Function]}
+                                                          onFocus={[Function]}
+                                                          required={false}
+                                                          role="combobox"
+                                                          style={
+                                                            Object {
+                                                              "boxSizing": "content-box",
+                                                              "width": "5px",
+                                                            }
+                                                          }
+                                                          value=""
+                                                        />
+                                                        <div
+                                                          style={
+                                                            Object {
+                                                              "height": 0,
+                                                              "left": 0,
+                                                              "overflow": "scroll",
+                                                              "position": "absolute",
+                                                              "top": 0,
+                                                              "visibility": "hidden",
+                                                              "whiteSpace": "pre",
+                                                            }
+                                                          }
+                                                        />
+                                                      </div>
+                                                    </AutosizeInput>
+                                                  </div>
+                                                  <span
+                                                    className="Select-arrow-zone"
+                                                    onMouseDown={[Function]}
+                                                  >
+                                                    <span
+                                                      className="icon-arrow-down"
+                                                    />
+                                                  </span>
+                                                </div>
+                                              </div>
+                                            </Select>
+                                          </SelectPicker>
+                                        </StyledSelect>
+                                      </SelectControl>
+                                    </ForwardRef(RefForwardedSelectControl)>
+                                  </Observer>
+                                </div>
+                              </FieldControlStyled>
+                              <FieldControlState
+                                flexibleControlStateSize={false}
+                              >
+                                <div
+                                  className="css-1347hil-FieldControlState ep9s0su0"
+                                >
+                                  <FormFieldControlState
+                                    model={
+                                      MockModel {
+                                        "initialData": Object {
+                                          "undefined": undefined,
+                                        },
+                                        "props": Object {
+                                          "alignRight": false,
+                                          "allowEmpty": false,
+                                          "children": [Function],
+                                          "className": undefined,
+                                          "escapeMarkup": true,
+                                          "field": [Function],
+                                          "flexibleControlStateSize": false,
+                                          "formatMessageValue": [Function],
+                                          "hideErrorMessage": false,
+                                          "placeholder": "--",
+                                          "small": false,
+                                        },
+                                      }
+                                    }
+                                  >
+                                    <Observer>
+                                      <ControlState
+                                        isSaved={false}
+                                        isSaving={false}
+                                      />
+                                    </Observer>
+                                  </FormFieldControlState>
+                                </div>
+                              </FieldControlState>
+                            </div>
+                          </FieldControlWrapper>
+                          <Observer />
+                        </div>
+                      </FieldControlErrorWrapper>
+                    </FieldControl>
+                  </div>
+                </FieldWrapper>
+              </Field>
+            </FormField>
+          </InputField>
+        </SelectField>
+      </div>
+    </IssueAlertOptions>
     <CreateProjectForm
       onSubmit={[Function]}
     >
@@ -1389,7 +3002,7 @@ exports[`CreateProject should deal with incorrect platform name if its provided 
                           >
                             <div
                               className="Select-multi-value-wrapper"
-                              id="react-select-5--value"
+                              id="react-select-10--value"
                             >
                               <div
                                 className="Select-placeholder"
@@ -1397,7 +3010,7 @@ exports[`CreateProject should deal with incorrect platform name if its provided 
                                 Select a Team
                               </div>
                               <AutosizeInput
-                                aria-activedescendant="react-select-5--value"
+                                aria-activedescendant="react-select-10--value"
                                 aria-expanded="false"
                                 aria-haspopup="false"
                                 aria-owns=""
@@ -1420,7 +3033,7 @@ exports[`CreateProject should deal with incorrect platform name if its provided 
                                   }
                                 >
                                   <input
-                                    aria-activedescendant="react-select-5--value"
+                                    aria-activedescendant="react-select-10--value"
                                     aria-expanded="false"
                                     aria-haspopup="false"
                                     aria-owns=""
@@ -1743,6 +3356,15 @@ exports[`CreateProject should fill in platform name if its provided by url 1`] =
                for your API server and frontend client.
       </p>
     </HelpText>
+    <PageHeading
+      withMargins={true}
+    >
+      <h1
+        className="css-uisydj-PageHeading e1bz0f4q0"
+      >
+        Choose a platform
+      </h1>
+    </PageHeading>
     <PlatformPicker
       platform="ruby"
       setPlatform={[Function]}
@@ -2221,6 +3843,15 @@ exports[`CreateProject should fill in platform name if its provided by url 1`] =
         </div>
       </PlatformList>
     </PlatformPicker>
+    <PageHeading
+      withMargins={true}
+    >
+      <h1
+        className="css-uisydj-PageHeading e1bz0f4q0"
+      >
+        Set your default alert settings
+      </h1>
+    </PageHeading>
     <CreateProjectForm
       onSubmit={[Function]}
     >
@@ -2739,6 +4370,15 @@ exports[`CreateProject should fill in project name if its empty when platform is
                for your API server and frontend client.
       </p>
     </HelpText>
+    <PageHeading
+      withMargins={true}
+    >
+      <h1
+        className="css-uisydj-PageHeading e1bz0f4q0"
+      >
+        Choose a platform
+      </h1>
+    </PageHeading>
     <PlatformPicker
       platform="csharp"
       setPlatform={[Function]}
@@ -3917,6 +5557,15 @@ exports[`CreateProject should fill in project name if its empty when platform is
         </div>
       </PlatformList>
     </PlatformPicker>
+    <PageHeading
+      withMargins={true}
+    >
+      <h1
+        className="css-uisydj-PageHeading e1bz0f4q0"
+      >
+        Set your default alert settings
+      </h1>
+    </PageHeading>
     <CreateProjectForm
       onSubmit={[Function]}
     >
